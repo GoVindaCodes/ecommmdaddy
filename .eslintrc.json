@@ -1,10 +1,9 @@
 {
-  "extends": ["eslint:recommended"],
+  "extends": ["eslint:recommended", "plugin:react-hooks/recommended"],
   "rules": {
     "no-unused-vars": "off",
     "no-constant-condition": "off",
     "no-case-declarations": "off",
-    "react-hooks/exhaustive-deps": "off",
     "no-dupe-keys": "off",
     "no-prototype-builtins": "off"
   }
