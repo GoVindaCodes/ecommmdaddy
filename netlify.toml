@@ -2,5 +2,3 @@
   command = "npm run build"  # or whatever command you use to build your project
   publish = "build"          # directory where the built files are located
 
-[context.production.environment]
-  NODE_ENV = "production"    # Set environment variables for production build if needed
